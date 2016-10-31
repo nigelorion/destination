@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="js/jquery.js"></script>
+    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Destinations</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Recent Destinations!</h1>
+      </div>
+      <form>
+        <div class="form-group">
+          <label for="person">Location:</label>
+          <input id="location" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="place">Landmark:</label>
+          <input id="landmark" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="thing">Notes:</label>
+          <input id="notes" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="color">Time of Year:</label>
+          <input id="year" class="form-control" type="text">
+        </div>
+        <button type="submit" class="btn">Submit this destination!</button>
+      </form>
+      <h2>Destinations:</h2>
+          <ul id="places">
+
+          </ul>
+          <div>
+            <div id="show-places">
+              <h2></h2>
+
+              <p>Your Location: <span class="location"></span></p>
+              <p>Your landmark: <span class="land"></span></p>
+              <p>Your Notes: <span class="note"></span></p>
+              <p>Your Time of the Year: <span class="time"></span></p>
+            </div>
+      </div>
+    </div>
+
+
+  </body>
+</html>
